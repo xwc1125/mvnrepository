@@ -12,6 +12,14 @@ pom.xml:
             <url>https://raw.githubusercontent.com/xwc1125/mvnrepository/master/repository</url>
         </repository>
     </repositories>
+    # 或者
+    <repositories>
+        <repository>
+            <id>xwc1125-mvnrepository</id>
+            <name>xwc1125-mvnrepository</name>
+            <url>https://raw.github.com/xwc1125/mvnrepository/master/repository</url>
+        </repository>
+    </repositories>
 
 ## Install jar to  repository
         for example:
